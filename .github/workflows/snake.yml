@@ -1,3 +1,4 @@
+
 name: Generate snake animation
 
 on:
@@ -8,7 +9,7 @@ on:
 
   push:
     branches:
-    - master
+    - main
 
 jobs:
   generate:
@@ -25,10 +26,11 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark
 
 
-      - name: push snake.svg to the output branch
+      - name: push snake.svg to the main branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          node-version: '20.x'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
