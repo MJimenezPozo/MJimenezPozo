@@ -13,13 +13,13 @@
 <br clear="both">
 
 <h2 align="left"></h2>
-
+<! --
 ###
 
 <img align="left" height="500" src="https://astrobackyard.com/wp-content/uploads/2019/10/cassiopeia-constellation.jpg"  />
 
 ###
-
+-->
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
   <img width="12" />
